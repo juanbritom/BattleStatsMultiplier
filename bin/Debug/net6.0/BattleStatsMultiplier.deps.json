@@ -6,11 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "BattleStatsMultiplier/1.0.0": {
+      "BattleStatsMultiplier/1.1.0": {
         "dependencies": {
           "BepInEx.PluginInfoProps": "2.1.0",
           "BepInEx.Unity.IL2CPP": "6.0.0-be.668",
-          "Assembly-CSharp": "0.0.0.0"
+          "Assembly-CSharp": "0.0.0.0",
+          "Il2Cppmscorlib": "4.0.0.0"
         },
         "runtime": {
           "BattleStatsMultiplier.dll": {}
@@ -614,11 +615,19 @@
             "fileVersion": "0.0.0.0"
           }
         }
+      },
+      "Il2Cppmscorlib/4.0.0.0": {
+        "runtime": {
+          "Il2Cppmscorlib.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
       }
     }
   },
   "libraries": {
-    "BattleStatsMultiplier/1.0.0": {
+    "BattleStatsMultiplier/1.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1240,6 +1249,11 @@
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
     },
     "Assembly-CSharp/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Il2Cppmscorlib/4.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
